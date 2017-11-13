@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
         <title>Школа батьківства</title>
-        <link rel="stylesheet" href="css/index.css"></head>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/layout.css">
+</head>
 <body>
     <header>
-        <div class="logo">
-            <a href="https://index.html">
-                <img src="img/logo.jpg" alt="logo">
+        <div class="container">
+            <img class="logo" src="img/logo.jpg" alt="logo">
+            <a class="title" href="https://index.html">
                 <span>Мама+Тато - школа батьківства</span>
             </a>
-            </div>
-        <div id="slide">
-            <img src="img/parents.jpg" alt="parents">
+        </div>
+        <div class="slide">
+            <img class="first-slide" src="img/parents.jpg" alt="parents">
             <img src="img/baby.jpg" alt="baby">
             <img src="img/mother-and-baby.jpg" alt="mother and baby">
         </div>
@@ -35,20 +37,20 @@
                     <a href="#schedule">Розклад занять</a> 
                 </li>
                 <li>
-                     <a href="#contacts">Контакти</a>
+                     <a href=#contacts">Контакти</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="about-school">
-            <h1>Про школу</h1>
+            <h1>1. Про школу</h1>
             <p class="appeal">Майбутні батьки!!!</p>
             <p>Наша школа для майбутніх батьків існує вже 5 років.Під час довголітньої праці в лікарні було розроблено авторську програму занять, що приготують до пологів. Вправи виявилися не тільки ефективними, але також і приємними для пацієнток. Заняття в школі для майбутніх батьків дозволять Вам прожити цей чудовий час без стресу і турбот. Нову  роль Ви приймете без страху, в переконанні, що Ви добре приготовані до найскладнішого екзамену в вашому житті.</p>
             <img src="img/pregnant.jpg" alt="pregnant">
         </section>
         <section id="objectives">
-            <h1>1. Мета і завдання Школи</h1>
+            <h1>2. Мета і завдання Школи</h1>
             <ul class="characteristic">
                 <li>Формування у батьків педагогічної культури та свідомого батьківства.</li>
                 <li>Ознайомлювати батьків із психофізіологічними особливостями дітей раннього віку.</li>
@@ -121,7 +123,7 @@
         </div>
         <section id="contacts">
             <div class="subcontact">
-                <h1>Контакти</h1>
+                <h1 class="subcontact-1">Контакти</h1>
                 <div class="address">
                    <img src="img/address.png" alt="address">
                    <span>Львів, пр. Ч.Калини 58</span>
@@ -132,7 +134,7 @@
                 </div>
                 <div class="mail">
                     <img src="img/e-mail.png" alt="email">
-                    <a href="https://mail.ukr.net">kostivira@ukr.net</a>
+                    <a class="connect" href="https://mail.ukr.net">kostivira@ukr.net</a>
                 </div>
             </div>
             <div class="map">
@@ -171,7 +173,7 @@
                         google.maps.event.addDomListener(window, 'load', init_map);
                 </script>
             </div>
-            <form method="post" action="https://formspree.io/kostivira@ukr.net">
+            <form name="myform" method="post" action="https://formspree.io/kostivira@ukr.net">
                 <fieldset>
                     <legend>Залишити відгук:</legend>
                         <input type="text" name="your-name" placeholder="введіть своє ім'я">
@@ -180,7 +182,7 @@
                     <br>
                         <textarea name="message" placeholder="введіть Ваше повідомлення"></textarea>
                     <br>
-                        <input type="submit" value="Відправити">
+                        <input class="send" type="submit" value="Відправити">
                 </fieldset>
             </form>
         </section>

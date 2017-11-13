@@ -1,0 +1,90 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.container .title {
+    display: flex;
+    order: -1;
+    margin-left: 20px;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav li {
+    margin-top: 5px;
+}
+@media only screen and (max-width: 768px) {
+  #about-school, #objectives, #theme, #schedule {
+    font-size: 20px;
+    }
+    .subcontact {
+        font-size: 20px;
+    }
+    #about-school {
+        width: 100%;
+    }
+    .container {
+        height: 150px;
+    }
+    .container .title {
+        font-size: 3rem;
+    }
+    .logo {
+        width: 100px;
+        height: 80px;
+    }
+}
+#about-school, #objectives, #theme, #schedule {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+h1 {
+    padding-left: 20px;
+    margin-top: 0; 
+}
+#contacts {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.subcontact, .map {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+footer img {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
