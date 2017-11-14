@@ -18,11 +18,15 @@ body {
     width: 140px;
     height: 120px;
     border-radius: 30px;
-}  
+} 
+.first-slide, .second-slide, .third-slide {
+    width: 100%;
+}
 nav ul {
+    border-radius: 20px;
     font-size: 30px;
     height: 50px;
-    background: linear-gradient(to bottom, #427004 0%, #b2dd77 100%);
+    background: linear-gradient(to bottom, #165910 0%, #b2dd77 100%);
 }
 nav li {
     list-style-type: none;
@@ -55,7 +59,7 @@ h1 {
 .subcontact {
     font-size: 30px;
 }
-form {
+fieldset {
     background-color: #d1cac0;
     font-size: 30px;
 }
@@ -72,7 +76,6 @@ form input {
 }
 form .send {
   background-color: #9b9a98; 
-  border-radius: 30px;
   cursor: pointer;
   height: 40px;
   font-size: 30px;
@@ -81,8 +84,17 @@ form .send {
     background-color: #474642;
     
 }
+#msg {
+    font-size: 30px;
+    text-align: center;
+    background-color: #c94d0a;
+    color: #f9eaca;
+    max-width: 700px;
+    margin: 20px auto;
+}
 #about-school img {
-    height: 350px;
+    height: 400px;
+    margin-bottom: 10px;
 }
 table, th, td {
     border: 1px solid black;
