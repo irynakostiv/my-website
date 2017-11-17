@@ -24,7 +24,7 @@ body {
     cursor: pointer !important;
     display: inline-block;
 }
-nav ul {
+#navbar-nav a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
