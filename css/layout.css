@@ -1,6 +1,6 @@
 body {
     max-width: 1200px;
-    margin: 0 auto !important;
+    margin: 0 auto;
 }
 .wrapper {
     display: flex;
@@ -18,10 +18,10 @@ body {
     margin-right: 20px;
 }
 .carousel-indicators li {
-    height: 20px !important;
-    margin-right: 20px !important;
-    border-radius: 50px !important;
-    cursor: pointer !important;
+    height: 20px;
+    margin-right: 20px;
+    border-radius: 50px;
+    cursor: pointer;
     display: inline-block;
 }
 #navbar-nav a {
@@ -36,7 +36,19 @@ nav li {
   #about-school, #objectives, #theme, #schedule {
     font-size: 20px;
     }
+    h1 {
+        font-size: 30px;
+    }
     .subcontact {
+        font-size: 20px;
+    }
+    #request legend {
+        font-size: 20px;
+    }
+    #about-school img {
+        height: 350px;
+    }
+    form .send {
         font-size: 20px;
     }
     .wrapper {
@@ -46,7 +58,7 @@ nav li {
         font-size: 3rem;
     }
     .logo {
-        width: 100px;
+        width: 120px;
         height: 80px;
     }
 }
