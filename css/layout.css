@@ -24,13 +24,9 @@ body {
     cursor: pointer;
     display: inline-block;
 }
-#navbar-nav a {
+.nav-item {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-nav li {
-    margin-top: 5px;
 }
 @media only screen and (max-width: 768px) {
   #about-school, #objectives, #theme, #schedule {

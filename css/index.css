@@ -28,14 +28,13 @@ body {
     background: linear-gradient(to bottom, #567f1e 0%, #b6db83 100%);
 }
 .navbar-nav {
-    width: 1200px;
-    display: flex;
     justify-content: space-between;
-    height: 70px;
     background: linear-gradient(to bottom, #756e0c 0%, #eae277 100%);
     list-style-type: none;
+    width: 100%;
 }
 .nav-link {
+    width: 100%;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Georgia', Serif;
@@ -119,6 +118,9 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
+    font-family: 'Georgia', Serif;
+}
+.address, .phone, .mail {
     font-family: 'Georgia', Serif;
 }
 footer {
